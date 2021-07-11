@@ -21,7 +21,7 @@ struct WelcomeView: View {
                         .multilineTextAlignment(.center)
                     Spacer()
                     NavigationLink(
-                        destination: ChooseView(),
+                        destination: ChoiceView(),
                         label: {
                             BottomTextView(str: "YES, I'M HUNGRY!")
                         })

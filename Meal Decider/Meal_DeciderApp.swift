@@ -11,7 +11,7 @@ import SwiftUI
 struct Meal_DeciderApp: App {
     var body: some Scene {
         WindowGroup {
-            ChooseView()
+            ChoiceView()
         }
     }
 }

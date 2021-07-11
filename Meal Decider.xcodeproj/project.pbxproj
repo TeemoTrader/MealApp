@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		65F23E86269B789600142C27 /* Meal_DeciderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E85269B789600142C27 /* Meal_DeciderApp.swift */; };
-		65F23E88269B789600142C27 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E87269B789600142C27 /* ChooseView.swift */; };
+		65F23E88269B789600142C27 /* ChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E87269B789600142C27 /* ChoiceView.swift */; };
 		65F23E8A269B789800142C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F23E89269B789800142C27 /* Assets.xcassets */; };
 		65F23E8D269B789800142C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F23E8C269B789800142C27 /* Preview Assets.xcassets */; };
 		65F23E98269B795700142C27 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E97269B795700142C27 /* WelcomeView.swift */; };
 		65F23E9A269B797300142C27 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E99269B797300142C27 /* AppColor.swift */; };
 		65F23E9C269B7D1200142C27 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E9B269B7D1200142C27 /* BottomTextView.swift */; };
+		65F23E9E269B95D500142C27 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E9D269B95D500142C27 /* Choice.swift */; };
+		65F23EA0269B98E100142C27 /* Choice2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F23E9F269B98E100142C27 /* Choice2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65F23E82269B789600142C27 /* Meal Decider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Decider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F23E85269B789600142C27 /* Meal_DeciderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_DeciderApp.swift; sourceTree = "<group>"; };
-		65F23E87269B789600142C27 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		65F23E87269B789600142C27 /* ChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceView.swift; sourceTree = "<group>"; };
 		65F23E89269B789800142C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65F23E8C269B789800142C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		65F23E8E269B789800142C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F23E97269B795700142C27 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		65F23E99269B797300142C27 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		65F23E9B269B7D1200142C27 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		65F23E9D269B95D500142C27 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		65F23E9F269B98E100142C27 /* Choice2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,8 @@
 		65F23E94269B790D00142C27 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				65F23E87269B789600142C27 /* ChooseView.swift */,
+				65F23E87269B789600142C27 /* ChoiceView.swift */,
+				65F23E9F269B98E100142C27 /* Choice2View.swift */,
 				65F23E97269B795700142C27 /* WelcomeView.swift */,
 				65F23E9B269B7D1200142C27 /* BottomTextView.swift */,
 			);
@@ -98,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				65F23E99269B797300142C27 /* AppColor.swift */,
+				65F23E9D269B95D500142C27 /* Choice.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,10 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F23EA0269B98E100142C27 /* Choice2View.swift in Sources */,
 				65F23E9C269B7D1200142C27 /* BottomTextView.swift in Sources */,
-				65F23E88269B789600142C27 /* ChooseView.swift in Sources */,
+				65F23E88269B789600142C27 /* ChoiceView.swift in Sources */,
 				65F23E9A269B797300142C27 /* AppColor.swift in Sources */,
 				65F23E98269B795700142C27 /* WelcomeView.swift in Sources */,
+				65F23E9E269B95D500142C27 /* Choice.swift in Sources */,
 				65F23E86269B789600142C27 /* Meal_DeciderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
