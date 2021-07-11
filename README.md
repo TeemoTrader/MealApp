@@ -1,3 +1,3 @@
 # MealApp
 
-Project to generate meal suggestions
+App project to generate meal suggestions
